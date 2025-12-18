@@ -34,11 +34,12 @@ Unlike generic ML projects, this system was optimized for **Recall** to minimize
 ---
 
 ## 📊 Model Interpretability
-### Feature Impact (SHAP Summary)
-*[Insert your SHAP summary plot image here]*
-`![SHAP Summary Plot](./models/shap_summary.png)`  
-*Key findings: Features V14, V12, and V10 showed the strongest negative correlation with fraudulent activity.*
 
+### Feature Impact (SHAP Summary)
+![SHAP Summary Plot](./models/shap_summary.png)
+
+**Key Findings:**
+Through SHAP (SHapley Additive exPlanations), we can see that features **V14, V12, and V10** are the most critical predictors. They show a strong negative correlation with the target; as these values decrease, the likelihood of a transaction being fraudulent increases significantly.
 ---
 
 ## 🚀 Installation & Usage
